@@ -27,6 +27,14 @@ a {
   color: #e29578;
 }
 
+hr {
+  border-style: dotted;
+  width: 10%;
+  border-color: #e29578;
+  border-width: 10px 0 0 0;
+  margin: 100px auto;
+}
+
 .top-container {
   background-color: #edf6f9;
   position: relative;
