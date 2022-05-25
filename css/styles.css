@@ -46,7 +46,8 @@ hr {
 }
 
 .bottom-container {
-
+  background-color: #ffddd2;
+  padding: 20px;
 }
 
 .pro {
@@ -84,4 +85,37 @@ hr {
   float: right;
   padding-bottom: 30px;
   margin-left: 30px;
+}
+
+.copyright {
+  color: #edf6f9;
+}
+
+.btn {
+  background-color: #e29578;
+  background-image: -webkit-linear-gradient(top, #e29578, #c47f66);
+  background-image: -moz-linear-gradient(top, #e29578, #c47f66);
+  background-image: -ms-linear-gradient(top, #e29578, #c47f66);
+  background-image: -o-linear-gradient(top, #e29578, #c47f66);
+  background-image: linear-gradient(to bottom, #e29578, #c47f66);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffddd2;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 60px auto;
+  width: 200px;
+  display: block;
+}
+.btn:hover {
+  background-color: #ebb7a4;
+  background-image: -webkit-linear-gradient(top, #ebb7a4, #e3a088);
+  background-image: -moz-linear-gradient(top, #ebb7a4, #e3a088);
+  background-image: -ms-linear-gradient(top, #ebb7a4, #e3a088);
+  background-image: -o-linear-gradient(top, #ebb7a4, #e3a088);
+  background-image: linear-gradient(to bottom, #ebb7a4, #e3a088);
+  text-decoration: none;
 }
